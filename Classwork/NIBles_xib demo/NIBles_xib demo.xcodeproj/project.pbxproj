@@ -1,0 +1,424 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DEA5A2671A48E61200079845 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEA5A2661A48E61200079845 /* AppDelegate.swift */; };
+		DEA5A2691A48E61200079845 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEA5A2681A48E61200079845 /* ViewController.swift */; };
+		DEA5A26C1A48E61200079845 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DEA5A26A1A48E61200079845 /* Main.storyboard */; };
+		DEA5A26E1A48E61200079845 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DEA5A26D1A48E61200079845 /* Images.xcassets */; };
+		DEA5A2711A48E61200079845 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = DEA5A26F1A48E61200079845 /* LaunchScreen.xib */; };
+		DEA5A27D1A48E61200079845 /* NIBles_xib_demoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEA5A27C1A48E61200079845 /* NIBles_xib_demoTests.swift */; };
+		DEA5A2871A48E65600079845 /* View.xib in Resources */ = {isa = PBXBuildFile; fileRef = DEA5A2861A48E65600079845 /* View.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DEA5A2771A48E61200079845 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DEA5A2591A48E61200079845 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DEA5A2601A48E61200079845;
+			remoteInfo = "NIBles_xib demo";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DEA5A2611A48E61200079845 /* NIBles_xib demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "NIBles_xib demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DEA5A2651A48E61200079845 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DEA5A2661A48E61200079845 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DEA5A2681A48E61200079845 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DEA5A26B1A48E61200079845 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DEA5A26D1A48E61200079845 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		DEA5A2701A48E61200079845 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		DEA5A2761A48E61200079845 /* NIBles_xib demoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "NIBles_xib demoTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DEA5A27B1A48E61200079845 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DEA5A27C1A48E61200079845 /* NIBles_xib_demoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NIBles_xib_demoTests.swift; sourceTree = "<group>"; };
+		DEA5A2861A48E65600079845 /* View.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = View.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DEA5A25E1A48E61200079845 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DEA5A2731A48E61200079845 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DEA5A2581A48E61200079845 = {
+			isa = PBXGroup;
+			children = (
+				DEA5A2631A48E61200079845 /* NIBles_xib demo */,
+				DEA5A2791A48E61200079845 /* NIBles_xib demoTests */,
+				DEA5A2621A48E61200079845 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DEA5A2621A48E61200079845 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DEA5A2611A48E61200079845 /* NIBles_xib demo.app */,
+				DEA5A2761A48E61200079845 /* NIBles_xib demoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DEA5A2631A48E61200079845 /* NIBles_xib demo */ = {
+			isa = PBXGroup;
+			children = (
+				DEA5A2661A48E61200079845 /* AppDelegate.swift */,
+				DEA5A2681A48E61200079845 /* ViewController.swift */,
+				DEA5A26A1A48E61200079845 /* Main.storyboard */,
+				DEA5A26D1A48E61200079845 /* Images.xcassets */,
+				DEA5A26F1A48E61200079845 /* LaunchScreen.xib */,
+				DEA5A2641A48E61200079845 /* Supporting Files */,
+				DEA5A2861A48E65600079845 /* View.xib */,
+			);
+			path = "NIBles_xib demo";
+			sourceTree = "<group>";
+		};
+		DEA5A2641A48E61200079845 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DEA5A2651A48E61200079845 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DEA5A2791A48E61200079845 /* NIBles_xib demoTests */ = {
+			isa = PBXGroup;
+			children = (
+				DEA5A27C1A48E61200079845 /* NIBles_xib_demoTests.swift */,
+				DEA5A27A1A48E61200079845 /* Supporting Files */,
+			);
+			path = "NIBles_xib demoTests";
+			sourceTree = "<group>";
+		};
+		DEA5A27A1A48E61200079845 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DEA5A27B1A48E61200079845 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DEA5A2601A48E61200079845 /* NIBles_xib demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DEA5A2801A48E61200079845 /* Build configuration list for PBXNativeTarget "NIBles_xib demo" */;
+			buildPhases = (
+				DEA5A25D1A48E61200079845 /* Sources */,
+				DEA5A25E1A48E61200079845 /* Frameworks */,
+				DEA5A25F1A48E61200079845 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "NIBles_xib demo";
+			productName = "NIBles_xib demo";
+			productReference = DEA5A2611A48E61200079845 /* NIBles_xib demo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DEA5A2751A48E61200079845 /* NIBles_xib demoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DEA5A2831A48E61200079845 /* Build configuration list for PBXNativeTarget "NIBles_xib demoTests" */;
+			buildPhases = (
+				DEA5A2721A48E61200079845 /* Sources */,
+				DEA5A2731A48E61200079845 /* Frameworks */,
+				DEA5A2741A48E61200079845 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DEA5A2781A48E61200079845 /* PBXTargetDependency */,
+			);
+			name = "NIBles_xib demoTests";
+			productName = "NIBles_xib demoTests";
+			productReference = DEA5A2761A48E61200079845 /* NIBles_xib demoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DEA5A2591A48E61200079845 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Anthony Walasik";
+				TargetAttributes = {
+					DEA5A2601A48E61200079845 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					DEA5A2751A48E61200079845 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = DEA5A2601A48E61200079845;
+					};
+				};
+			};
+			buildConfigurationList = DEA5A25C1A48E61200079845 /* Build configuration list for PBXProject "NIBles_xib demo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DEA5A2581A48E61200079845;
+			productRefGroup = DEA5A2621A48E61200079845 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DEA5A2601A48E61200079845 /* NIBles_xib demo */,
+				DEA5A2751A48E61200079845 /* NIBles_xib demoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DEA5A25F1A48E61200079845 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DEA5A2871A48E65600079845 /* View.xib in Resources */,
+				DEA5A26C1A48E61200079845 /* Main.storyboard in Resources */,
+				DEA5A2711A48E61200079845 /* LaunchScreen.xib in Resources */,
+				DEA5A26E1A48E61200079845 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DEA5A2741A48E61200079845 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DEA5A25D1A48E61200079845 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DEA5A2691A48E61200079845 /* ViewController.swift in Sources */,
+				DEA5A2671A48E61200079845 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DEA5A2721A48E61200079845 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DEA5A27D1A48E61200079845 /* NIBles_xib_demoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DEA5A2781A48E61200079845 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DEA5A2601A48E61200079845 /* NIBles_xib demo */;
+			targetProxy = DEA5A2771A48E61200079845 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DEA5A26A1A48E61200079845 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DEA5A26B1A48E61200079845 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DEA5A26F1A48E61200079845 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DEA5A2701A48E61200079845 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DEA5A27E1A48E61200079845 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DEA5A27F1A48E61200079845 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DEA5A2811A48E61200079845 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "NIBles_xib demo/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DEA5A2821A48E61200079845 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "NIBles_xib demo/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		DEA5A2841A48E61200079845 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "NIBles_xib demoTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NIBles_xib demo.app/NIBles_xib demo";
+			};
+			name = Debug;
+		};
+		DEA5A2851A48E61200079845 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "NIBles_xib demoTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NIBles_xib demo.app/NIBles_xib demo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DEA5A25C1A48E61200079845 /* Build configuration list for PBXProject "NIBles_xib demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DEA5A27E1A48E61200079845 /* Debug */,
+				DEA5A27F1A48E61200079845 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DEA5A2801A48E61200079845 /* Build configuration list for PBXNativeTarget "NIBles_xib demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DEA5A2811A48E61200079845 /* Debug */,
+				DEA5A2821A48E61200079845 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DEA5A2831A48E61200079845 /* Build configuration list for PBXNativeTarget "NIBles_xib demoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DEA5A2841A48E61200079845 /* Debug */,
+				DEA5A2851A48E61200079845 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DEA5A2591A48E61200079845 /* Project object */;
+}

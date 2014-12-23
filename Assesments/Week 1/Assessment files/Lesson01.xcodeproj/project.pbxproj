@@ -12,6 +12,8 @@
 		5D06C68219D8CFFE0082F2DE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5D06C68019D8CFFE0082F2DE /* Main.storyboard */; };
 		5D06C68419D8CFFE0082F2DE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5D06C68319D8CFFE0082F2DE /* Images.xcassets */; };
 		5D06C69319D8CFFE0082F2DE /* Lesson01Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D06C69219D8CFFE0082F2DE /* Lesson01Tests.swift */; };
+		DE5B85FE1A4905520074E07E /* me.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DE5B85FD1A4905520074E07E /* me.jpg */; };
+		DE5B86001A490A9B0074E07E /* 2-puppy-training-group-classes-house-training-toliet-training-kent-sheppey-maidstone-medway-puppy-foundation.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DE5B85FF1A490A9B0074E07E /* 2-puppy-training-group-classes-house-training-toliet-training-kent-sheppey-maidstone-medway-puppy-foundation.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +36,8 @@
 		5D06C68C19D8CFFE0082F2DE /* Lesson01Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Lesson01Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5D06C69119D8CFFE0082F2DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5D06C69219D8CFFE0082F2DE /* Lesson01Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lesson01Tests.swift; sourceTree = "<group>"; };
+		DE5B85FD1A4905520074E07E /* me.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = me.jpg; sourceTree = "<group>"; };
+		DE5B85FF1A490A9B0074E07E /* 2-puppy-training-group-classes-house-training-toliet-training-kent-sheppey-maidstone-medway-puppy-foundation.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "2-puppy-training-group-classes-house-training-toliet-training-kent-sheppey-maidstone-medway-puppy-foundation.jpg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +81,7 @@
 			children = (
 				5D06C67C19D8CFFE0082F2DE /* AppDelegate.swift */,
 				5D06C67E19D8CFFE0082F2DE /* ViewController.swift */,
+				DE5B85FC1A4904F50074E07E /* images */,
 				5D06C68019D8CFFE0082F2DE /* Main.storyboard */,
 				5D06C68319D8CFFE0082F2DE /* Images.xcassets */,
 				5D06C67A19D8CFFE0082F2DE /* Supporting Files */,
@@ -107,6 +112,15 @@
 				5D06C69119D8CFFE0082F2DE /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DE5B85FC1A4904F50074E07E /* images */ = {
+			isa = PBXGroup;
+			children = (
+				DE5B85FF1A490A9B0074E07E /* 2-puppy-training-group-classes-house-training-toliet-training-kent-sheppey-maidstone-medway-puppy-foundation.jpg */,
+				DE5B85FD1A4905520074E07E /* me.jpg */,
+			);
+			name = images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -189,8 +203,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DE5B86001A490A9B0074E07E /* 2-puppy-training-group-classes-house-training-toliet-training-kent-sheppey-maidstone-medway-puppy-foundation.jpg in Resources */,
 				5D06C68219D8CFFE0082F2DE /* Main.storyboard in Resources */,
 				5D06C68419D8CFFE0082F2DE /* Images.xcassets in Resources */,
+				DE5B85FE1A4905520074E07E /* me.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -393,6 +409,7 @@
 				5D06C69819D8CFFE0082F2DE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5D06C69919D8CFFE0082F2DE /* Build configuration list for PBXNativeTarget "Lesson01Tests" */ = {
 			isa = XCConfigurationList;
@@ -401,6 +418,7 @@
 				5D06C69B19D8CFFE0082F2DE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
